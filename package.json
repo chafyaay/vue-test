@@ -1,0 +1,30 @@
+{
+  "name": "vue-pokemon-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vue-tsc -b && vite build",
+    "test:unit": "vue-cli-service test:unit",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.7.0",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^29.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4"
+  },
+  "type": "module"
+}
