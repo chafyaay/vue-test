@@ -18,7 +18,7 @@ This project is a Vue.js application that demonstrates the implementation of uni
 
 ```bash
 git clone https://github.com/chafyaay/vue-test/edit/feat/implement-pokemon-app
-cd <project-folder>
+cd vue-pokemon-app
 ```
 
 ### 2. Install dependencies
